@@ -251,16 +251,51 @@ footer{
   color: #FDFDFC;
 }
 
-.openToggle{
+#openToggle{
   background-image: url("images/toggle2.png");
   float: right;
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 
-.closedToggle{
-  background-image: url("images/toggle1.png")
+#closedToggle{
+  background-image: url("images/toggle1.png");
+  float: right;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
 }
+
+#dropDown {
+  display: none;
+}
+
+#closedToggle2{
+  background-image: url("images/toggle1.png");
+  float: right;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+#dropDown2 {
+  display: none;
+}
+
+#closedToggle3{
+  background-image: url("images/toggle1.png");
+  float: right;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+#dropDown3 {
+  display: none;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   #footGrid {
