@@ -1,0 +1,457 @@
+header{
+  background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/donatehero.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  font-family: "Nunito Sans";
+  font-size: 24;
+  font-weight: 700;
+  color: #FDFDFC;
+}
+
+nav{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.heroBox {
+  background-image: url("images/donatecontainerclear.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 10%;
+  margin: 0% 10% 10% 10%;
+}
+
+.topnav {
+  font-family:"Nunito Sans";
+  font-size:calc(12px + 1vw);
+  /*overflow: hidden;*/
+  position: relative;
+  top: 0;
+  /*background-color: hsla(0, 0%, 0%, 0.25);*/
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+  
+.logo {
+  position: relative;
+  float:left;
+  cursor: pointer;
+}
+
+.searchBar {
+  float: right;
+  width: 229px;
+  height: 52px;
+  left: 1119px;
+  top: 38px;
+  background: linear-gradient(99.82deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 103.99%);
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+  cursor: text;
+}
+
+.iconBar{
+  margin:auto;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon{
+  float: right;
+  padding: 5%;
+  cursor: pointer;
+}
+
+.calendarIcon{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  padding: 5%;
+  cursor: pointer;
+}
+
+.topnav a {
+  float: left;
+  left:50px;
+  display: block;
+  color: #FDFDFC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+ 
+}
+  
+.topnav a:hover {
+  color: #FDFDFC;
+  border-bottom: 3px solid #FDFDFC;
+}
+
+.topnav a.active {
+  color: #FDFDFC;
+  border-bottom: 3px solid #FDFDFC;
+}
+
+.hero-text {
+  text-align: left;
+  margin-left: 10%;
+  color: #FDFDFC;
+  font-size:calc(12px + 1vw);
+}  
+
+.button0{
+  padding: 1% 5% 1% 5%;
+  background-color: #FDFDFC;
+  font-family: "Nunito Sans", bold;
+  font-size:calc(12px + 1vw);
+  color: #0A0A0A;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  height: 50px;
+  width: auto;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.button1{
+  padding: 1% 5% 1% 5%;
+  background-color: #FDFDFC;
+  font-family: "Nunito Sans", bold;
+  font-size: 48;
+  color: #0A0A0A;
+  border: none;
+  border-radius: 10px;
+  float: right;
+}
+
+.button2{
+  padding: 1% 5% 1% 5%;
+  background-color: #3A844A;
+  font-family: "Nunito Sans", bold;
+  font-size:calc(12px + 1vw);
+  color: #FDFDFC;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.centerAlign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  color: #FDFDFC;
+  font-size:calc(12px + 5vw);
+}
+
+h2{
+  font-family: "Noto Serif", serif;
+  font-size:calc(12px + 4vw);
+  color: #FDFDFC;
+  text-align: center;
+}
+
+h3{
+  font-family: "Nunito Sans", bold;
+  font-size: 48;
+  color: #FDFDFC;
+  text-align: center;
+}
+
+h4{ /*for the drop down boxes*/
+  font-family: "Noto Serif", serif;
+  font-size:calc(12px + 3vw);
+  color: #FDFDFC;
+  text-align: left;
+}
+
+h5{
+  font-family: "Nunito Sans", bold;
+  font-size:calc(12px + 2vw);
+  color:#00853E
+}
+
+h6{
+  font-family: "Noto Serif", serif;
+  font-size:calc(12px + 4vw);
+  color: #FDFDFC;
+  text-align: left;
+}
+
+body{
+  background-color: #121212;
+}
+
+hr{
+  color: #FDFDFC;
+}
+
+footer{
+  font-family: "Nunito Sans", bold;
+  font-size:calc(12px + 1vw);
+  color: #FDFDFC;
+}
+
+#footGrid{
+  display: grid;
+  grid-template-rows: 60% 40%;
+  grid-template-columns: 60% 40%;
+  grid-template-areas:
+  "footLinks footMedia"
+  "footLinks footIcon";
+}
+
+#footLinks{
+  grid-area: footLinks;
+}
+
+#footMedia{
+  grid-area: footMedia;
+}
+
+#footIcon{
+  grid-area: footIcon;
+}
+
+.footBox{
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: #1A1A1A;
+  padding: 5%;
+  margin: 10%;
+  font-family: "Nunito Sans", bold;
+  font-size:calc(12px + 2vw);
+  color: #FDFDFC;
+}
+
+.dropContainer{
+  background-color: #1A1A1A;
+  padding: 5%;
+  margin: 10%;
+  font-family: "Nunito Sans", bold;
+  font-size:calc(12px + 1vw);
+  color: #FDFDFC;
+}
+
+.openToggle{
+  background-image: url("images/toggle2.png");
+  float: right;
+  height: 50px;
+  width: 50px;
+}
+
+.closedToggle{
+  background-image: url("images/toggle1.png")
+}
+
+@media only screen and (max-width: 600px) {
+  #footGrid {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "footLinks" 
+    "footMedia"
+    "footIcon"
+    ;
+  }
+}
+
+/*.heroContainer {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/donatehero.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  overflow: hidden;
+}*/
+
+
+/* 
+.footContainer{
+  display: flex;
+  height: 50%;
+  width: 90%;
+  flex-direction: column;
+}
+
+parent and child containers
+
+all children are the same size - attempt flexbox
+
+psuedocode:
+
+container for the first set (two children in one container)
+
+.parentRow1 {
+  display: flex;
+  height: 634px;
+  width: 1236px;
+  margin: auto;
+  flex-direction: row;
+  background-color: #121212;
+}
+
+.childContainer1 {
+  display: flex;
+  padding:;
+  margin:;
+  background-color: #3A844A;
+} 
+
+container for the 2nd set (three children in one container)
+
+.parentRow2{ //this parent container is invisible
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+}
+
+.childContainer2{
+  display:flex;
+  padding:;
+  margin:;
+}
+
+.row{
+  flex-direction: row;
+}
+
+*/
+
+/* footer
+
+list of links
+
+container of a list of icons
+
+container with 3 icons
+
+*/
+
+/*scraps
+
+.parentRow1 {
+  display: flex;
+  height: 50%;
+  width: 90%;
+  margin: auto;
+  flex-direction: row;
+  background-color: #121212;
+}
+
+.childContainer1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #3A844A;
+  font-family: "Nunito Sans";
+  font-size: 20;
+  color: #FDFDFC;
+  padding: 5%;
+} 
+
+.parentRow2{
+  display: flex;
+  height: 5%;
+  width: 5%;
+  flex-direction: row;
+}
+
+.childContainer2{
+  flex-direction: column;
+  display:flex;
+  background-color: #121212;
+  font-family: "Nunito Sans";
+  font-size: 20;
+  color: #FDFDFC;
+  padding: 5%;
+}
+
+*/
+
+/*.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}*/
+
+/*.hero-image {
+    Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read
+    background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/hero2.png");
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: static;
+  }
+  */
+  /*#container {
+  position: relative;
+  width: 450px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}*/
+
+/*img {
+
+  box-shadow: 0 0 10px 0 #222;
+}*/
+
+/*#overlay {
+  position: relative;
+  left: 17%;
+  top: 0;
+  width: 83%;
+  z-index: 1;
+  color: rgba(209, 206, 209, 0.4);
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}*/
+
+/*#heroGrid{
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 70vh;
+  grid-template-rows: 10% 90%;
+  grid-template-columns: 10% 90%;
+  grid-template-areas:
+  "logo searchBar"
+  "logo nav";
+}
+
+#logo{
+  grid-area:logo;
+  background-image: url(images/logo.png);
+}
+
+#searchBar{
+  grid-area: searchBar;
+}
+
+#nav{
+  grid-area: nav;
+}*/
